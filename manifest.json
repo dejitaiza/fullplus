@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Full+",
+  "description": "This extension enhances the Google plus experience by providing a full width single column layout",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://plus.google.com/*","http://plus.google.com/*"], 
+      "css" : ["layout.css"],
+      "js" : ["layout.js"]
+    }
+]
+}
